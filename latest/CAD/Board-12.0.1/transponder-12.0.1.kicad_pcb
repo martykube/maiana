@@ -25603,7 +25603,7 @@
 		(path "/06f3a0a5-7a3f-4700-b4b0-55d177e6a1f2/cc6c8f3f-f3e9-4230-9b9a-eda2d6bb893e")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.765 3.235)
 			(end 1.765 3.235)

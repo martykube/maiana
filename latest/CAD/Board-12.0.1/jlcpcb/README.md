@@ -11,7 +11,7 @@ Generated from the KiCad project in this directory with `kicad-cli` (KiCad 9).
 ## PCB options
 
 - 4 layers, 1.6 mm, standard via process (matches Peter's published Gerbers; copper layers regenerated unchanged)
-- PCB assembly: **both sides**. J2 (SWD header) is the only bottom-side part.
+- PCB assembly: **top side only**. J2 (SWD, bottom side) stays unfitted, as on the original boards.
 
 ## Parts
 
@@ -24,7 +24,6 @@ Substitutions from the original design (out of stock at JLCPCB, Nov 2026):
 | U5 | STM32L412K8U6 | STM32L412KBU6 (C529439) | Same die and pinout, 128 KB flash; L412 firmware runs unchanged |
 | U9, U10 | SI1926DL-T1-E3 | DMN63D8LDW-7 (C211422) | Same dual N-MOSFET SOT-363 pinout; drives LEDs / TX_OFF only |
 | J4 | RJ-82A86MMNL | FG RJ-055-1 (C7205195) | Sunken SMD RJ45; pins, pegs, cutout and shield tabs match the footprint |
-| J2 | (not fitted) | Samtec FTSH-105-01-L-DV-K (C5155080) | Needed to flash the bootloader on new boards |
 
 Where Murata C0G capacitors were out of stock, Yageo NP0 parts of the same value were used.
 
@@ -42,4 +41,11 @@ Where Murata C0G capacitors were out of stock, Yageo NP0 parts of the same value
 - **L4** (2.2 µH, PA drain choke): the schematic has no manufacturer part; the BOM uses
   FH CMH160808B2R2MT (750 mA) as a placeholder. Confirm with the original designer.
 - **Rotations**: check every part in JLCPCB's placement preview, especially QFN, SOT-23/89/363,
-  the RJ45 and the bottom-side J2. KiCad and JLCPCB use different zero orientations for some packages.
+  and the RJ45. KiCad and JLCPCB use different zero orientations for some packages.
+
+## Flashing the bootloader on new boards
+
+J2 is a bare 2x5 1.27 mm (ARM Cortex SWD 10-pin) pad pattern on the bottom side, centred about
+4 mm from the long edge, with its rows parallel to that edge. Use a 2x5 1.27 mm pogo-pin edge clip
+(or a hand-held pogo adapter) with an ST-Link to write the bootloader once; after that, firmware
+updates go over the UART. If a header is wanted later: Samtec FTSH-105-01-L-DV-K (LCSC C5155080).

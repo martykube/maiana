@@ -36,10 +36,11 @@ Where Murata C0G capacitors were out of stock, Yageo NP0 parts of the same value
 | U11 | TST TB0436A (162 MHz SAW) | TB0436A (low stock, order early) |
 | Y1, Y2 | ECS-300-10-33B-CKM-TR | keep this exact crystal; a different crystal shifts frequency (issue #103) |
 
-### To confirm before ordering
+### Notes on specific parts
 
-- **L4** (2.2 µH, PA drain choke): the schematic has no manufacturer part; the BOM uses
-  FH CMH160808B2R2MT (750 mA) as a placeholder. Confirm with the original designer.
+- **L4** (2.2 µH, PA drain choke, V_PA ≈ 4.6 V → Q1 drain): the schematic gives no part number.
+  Peter's 10.5 BOM used Taiyo Yuden BRC2012T2R2MD (0805, ~1.1 A); 12.0.1 has an 0603 footprint, so
+  APV AFL160808-2R2MLH (C55265173, 0603, Isat 1.4 A, 270 mΩ) is fitted. TX bursts draw up to ~0.8 A.
 - **Rotations**: check every part in JLCPCB's placement preview, especially QFN, SOT-23/89/363,
   and the RJ45. KiCad and JLCPCB use different zero orientations for some packages.
 

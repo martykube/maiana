@@ -4331,7 +4331,7 @@
 				)
 			)
 		)
-		(property "Value" "CL-SB-12B-01T"
+		(property "Value" "CL-SB-12B-01"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "43fee736-69cc-4817-aef5-65ffc82db5b6")
@@ -10029,7 +10029,7 @@
 				)
 			)
 		)
-		(property "Value" "CL-SB-12B-01T"
+		(property "Value" "CL-SB-12B-01"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "244eddd0-3d0d-4512-9453-1536758c8bcb")
@@ -10859,7 +10859,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B5819W"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "7891e9f3-853e-44a4-bfb7-bf328dcfdb7a")
@@ -12724,7 +12724,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD1CAN-U"
+		(property "Value" "PESD1CAN-UX"
 			(at 5 0.5 0)
 			(layer "F.Fab")
 			(uuid "d5f7c39f-1052-4d4f-be02-31c72d7051b6")

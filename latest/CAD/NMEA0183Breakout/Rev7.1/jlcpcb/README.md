@@ -36,3 +36,9 @@ Changes from the original design:
 | J2 | On Shore OSTVN04A150, THT terminal block | 0 stock at JLCPCB; DigiKey ED10563-ND; hand-solder |
 | S1, S2 | E-Switch LC1258EENP, THT latching pushbutton | 0 stock at JLCPCB; hand-solder |
 | R7, R8 | 0R | DNP in the design |
+
+## Rotations
+
+The CPL rotations have been pre-corrected using the offsets confirmed on the NMEA 2000 board:
+SOIC/SO/SOT-23-6 parts (U1, U2, U3, U6) are -90 deg from KiCad; SOT-23/SOT-23-5 parts
+(Q1, Q2, U4, U5) and the RJ45 (J1) are 180 deg from KiCad. Verify in JLCPCB's placement preview.

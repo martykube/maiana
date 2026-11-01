@@ -37,3 +37,10 @@ Changes from the original design:
 |---|---|---|
 | J1 | 12-3701-05 M12 5-pin (NMEA 2000 Micro-C), THT | Not stocked at JLCPCB; hand-solder |
 | J4 | 2-pin header | DNP in the design |
+
+## Rotations
+
+The CPL rotations have been corrected for JLCPCB's part models (checked in the JLCPCB placement
+preview, Nov 2026): SOIC/SO/TSSOP/SOT-23-6/SOT-323 parts (U2-U6, D5) are -90 deg from KiCad,
+SOT-23/SOT-23-5 parts (Q1-Q3, U7, U8) and the bottom-side RJ45 (J2) are 180 deg from KiCad.
+Do not regenerate the CPL from KiCad without re-applying these.

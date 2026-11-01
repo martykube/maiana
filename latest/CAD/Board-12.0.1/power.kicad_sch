@@ -2347,6 +2347,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.2448 36.83 0)
 			(effects
@@ -2414,6 +2423,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C113990"
+			(at 93.98 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "KiCadFootprints:DIOM4336X265N"
@@ -2670,6 +2688,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2969978"
+			(at 133.35 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "KiCadFootprints:SON65P200X200X100-7N-D"
@@ -2941,6 +2968,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25819"
+			(at 166.37 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.052 109.22 90)
 			(effects
@@ -3009,6 +3045,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C380321"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -3146,6 +3191,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C307600"
+			(at 162.56 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 162.56 36.83 0)
 			(effects
@@ -3213,6 +3267,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C380321"
+			(at 176.53 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -3484,6 +3547,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C380321"
+			(at 93.98 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.6348 105.41 0)
 			(effects
@@ -3554,6 +3626,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C380321"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.5552 83.82 0)
 			(effects
@@ -3620,6 +3701,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2071056"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
@@ -3768,6 +3858,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 165.735 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -4037,6 +4136,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C603656"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 134.62 71.12 0)
 			(effects
@@ -4249,6 +4357,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C18185759"
+			(at 116.205 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.9952 49.53 0)
 			(effects
@@ -4317,6 +4434,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C20416420"
+			(at 185.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -4588,6 +4714,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C20416420"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"

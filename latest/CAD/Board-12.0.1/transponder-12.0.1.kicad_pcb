@@ -5555,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Value" "SI1926DL-T1-E3"
+		(property "Value" "DMN63D8LDW-7"
 			(at 1.35 0.35 0)
 			(layer "F.Fab")
 			(uuid "f8d5f8ad-0d77-4629-a805-f6890408696b")
@@ -14084,7 +14084,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32L412K8U6"
+		(property "Value" "STM32L412KBU6"
 			(at 0 3.82 135)
 			(layer "F.Fab")
 			(uuid "add9f1c2-e2b5-481a-a246-297e13b854bc")
@@ -16724,7 +16724,7 @@
 				)
 			)
 		)
-		(property "Value" "SI1926DL-T1-E3"
+		(property "Value" "DMN63D8LDW-7"
 			(at 0.6 -0.05 0)
 			(layer "F.Fab")
 			(uuid "64a99464-4b65-4865-af20-da6b903169e7")
@@ -25603,7 +25603,7 @@
 		(path "/06f3a0a5-7a3f-4700-b4b0-55d177e6a1f2/cc6c8f3f-f3e9-4230-9b9a-eda2d6bb893e")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.765 3.235)
 			(end 1.765 3.235)

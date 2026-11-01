@@ -3645,6 +3645,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.1348 35.56 0)
 			(effects
@@ -3706,13 +3715,22 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32L412K8U6"
+		(property "Value" "STM32L412KBU6"
 			(at 141.6559 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C529439"
+			(at 141.6559 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
@@ -3944,6 +3962,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 147.32 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.2448 35.56 0)
 			(effects
@@ -4078,6 +4105,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 104.14 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 58.42 90)
 			(effects
@@ -4127,7 +4163,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6c8f3f-f3e9-4230-9b9a-eda2d6bb893e")
 		(property "Reference" "J2"
@@ -4146,6 +4182,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C5155080"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
@@ -4307,6 +4352,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C511269"
+			(at 97.2059 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"

@@ -28,3 +28,8 @@ D3 is a 3 V zener (generic in the design); BZT52C3V0S is used.
 ## Note
 
 This revision needs 12 V supplied on JP3 (pin 8 = 12 V, pin 7 = GND); USB only powers the CH340.
+
+## Rotations
+
+U1 (SOT-23), U$1 (SOIC-8) and U$4 (SOT-23-6) are rotated -90 deg from Peter's Eagle
+pick-and-place data to match JLCPCB's part models (verified in the placement preview, Nov 2026).

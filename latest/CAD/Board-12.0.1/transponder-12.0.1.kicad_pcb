@@ -26318,8 +26318,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev 12.0.1\n(c)2016-2025\nMaverick Labs LLC"
-		(at 182 108.8 0)
+	(gr_text "Rev 12.0.1\n(c)2016-2025\nMaverick Labs LLC\nBuilt by Marty Kube"
+		(at 182 109.2 0)
 		(layer "F.SilkS")
 		(uuid "76f622e5-9849-444c-8eaa-3ad41e4487d9")
 		(effects

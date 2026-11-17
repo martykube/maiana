@@ -35,7 +35,7 @@ Changes from the original design:
 
 | Ref | Part | Notes |
 |---|---|---|
-| J1 | 12-3701-05 M12 5-pin (NMEA 2000 Micro-C), THT | Not stocked at JLCPCB; hand-solder |
+| J1 | M12 5-pin male, right angle, THT (NMEA 2000 Micro-C): Amphenol M12A-05PMMR-SF7003, DigiKey 1754-M12A-05PMMR-SF7003-ND. The design names it 12-3701-05 (footprint MICRO_C_5PIN, mounts on the back) | Not stocked at JLCPCB; hand-solder. Test-fitted Nov 2026: fits the footprint, pins checked with a meter |
 | J4 | 2-pin header | DNP in the design |
 
 ## Rotations

@@ -51,6 +51,13 @@ def sync(port):
     port.reset_input_buffer()
     port.write(b"\x7f")
     b = port.read(1)
+    if not b:
+        # Already synced (e.g. a second run): the bootloader took 0x7F as the
+        # first byte of a command and is waiting for its complement. Send it;
+        # 0x7F is not a valid command, so the bootloader answers NACK and is
+        # ready again.
+        port.write(b"\x80")
+        b = port.read(1)
     # 0x1F after a sync means the bootloader was already synced, which is fine.
     if not b or b[0] not in (ACK, NACK):
         raise BootloaderError(
@@ -118,11 +125,22 @@ def main():
     if 0x11 not in cmds:
         sys.exit("Read Memory not offered; stopping.")
 
+    # Check flash itself first: a NACK here means readout protection.
     try:
-        size_kb = args.size or int.from_bytes(read_mem(port, FLASH_SIZE_REG, 2), "little")
+        read_mem(port, FLASH_BASE, 4)
     except BootloaderError as e:
-        sys.exit(f"{e}. Read Memory refused: readout protection (RDP) is probably "
-                 "on. Do NOT try Readout Unprotect: it mass-erases the chip.")
+        sys.exit(f"{e}. Read Memory refused on flash: readout protection (RDP) is "
+                 "probably on. Do NOT try Readout Unprotect: it mass-erases the chip.")
+    size_kb = args.size
+    if not size_kb:
+        try:
+            size_kb = int.from_bytes(read_mem(port, FLASH_SIZE_REG, 2), "little")
+        except BootloaderError:
+            # Some ROM bootloaders (seen on STM32L432, PID 0x435) refuse reads
+            # of the flash-size register even with RDP off.
+            sys.exit("The bootloader will not read the flash-size register. Rerun "
+                     "with --size KB (e.g. 64 or 128 for STM32L412, 128 for the "
+                     "N2K adapter's STM32L432KB).")
     print(f"flash size {size_kb} KB")
 
     flash = read_region(port, FLASH_BASE, size_kb * 1024, "flash")

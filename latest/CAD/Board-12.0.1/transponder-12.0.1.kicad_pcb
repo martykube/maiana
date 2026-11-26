@@ -40139,12 +40139,6 @@
 			)
 		)
 	)
-	(gr_text "!AIVDM,1,1,,A,>000003O>0@F0l59AT,2*1B"
-		(at 165.9 93.65 0)
-		(layer "B.SilkS")
-		(uuid "2bb21a2f-43d3-4112-9007-e293f7386b91")
-		(effects (font (face "Noto Sans Mono") (size 1 1) (thickness 0.15) (bold yes)) (justify mirror))
-	)
 	(gr_text "1 V_IN\n2 TX_OFF\n3 MCU TX\n4 GPS_STAT"
 		(at 123.9 91.55 0)
 		(layer "B.SilkS")
